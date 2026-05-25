@@ -1,0 +1,156 @@
+{
+  "settings": {
+    "curaPath": "C:\\Program Files\\UltiMaker Cura 5.12.0\\UltiMaker-Cura.exe",
+    "markupPercent": 10,
+    "electricityCostPerHour": 0.2,
+    "hourlyRate": 2,
+    "flatLaborFee": 5
+  },
+  "materials": [
+    {
+      "id": "mat-1",
+      "name": "PLA Matte Carbon Black",
+      "colorHex": "#121212",
+      "texture": "Mat",
+      "pricePerGram": 0.15,
+      "inStock": true,
+      "stockGrams": 1000
+    },
+    {
+      "id": "mat-2",
+      "name": "PLA Matte Cotton White",
+      "colorHex": "#f3f4f6",
+      "texture": "Mat",
+      "pricePerGram": 0.15,
+      "inStock": true,
+      "stockGrams": 850
+    },
+    {
+      "id": "mat-3",
+      "name": "PLA Silk Shiny Gold",
+      "colorHex": "#d4af37",
+      "texture": "Silk Lucios",
+      "pricePerGram": 0.25,
+      "inStock": true,
+      "stockGrams": 500
+    },
+    {
+      "id": "mat-4",
+      "name": "PETG Fire Red",
+      "colorHex": "#e11d48",
+      "texture": "Semi-lucios",
+      "pricePerGram": 0.18,
+      "inStock": true,
+      "stockGrams": 1000
+    },
+    {
+      "id": "mat-5",
+      "name": "PLA Translucent Green",
+      "colorHex": "#22c55e",
+      "texture": "Translucid",
+      "pricePerGram": 0.2,
+      "inStock": false,
+      "stockGrams": 0
+    }
+  ],
+  "models": [
+    {
+      "id": "model-1",
+      "title": "Cute Calibration Cat (CaliCat)",
+      "description": "Un model adorabil de pisică folosit pentru calibrarea imprimantei 3D, testând toleranțele, detaliile fine și suprafețele curbe.",
+      "printablesUrl": "https://www.printables.com/model/42211-calicat-cute-calibration-cat",
+      "imageUrl": "/images/calicat.png",
+      "weightGrams": 12,
+      "printTimeMinutes": 45,
+      "fileName": "calicat.stl",
+      "localPath": "uploads/calicat.stl",
+      "category": "Calibrare & Utile"
+    },
+    {
+      "id": "model-2",
+      "title": "Articulated Flexi Dragon",
+      "description": "Dragon articulat complet flexibil printat dintr-o singură bucată (print-in-place). Nu necesită asamblare și are o mișcare extrem de fluidă.",
+      "printablesUrl": "https://www.printables.com/model/12345-flexi-articulated-dragon",
+      "imageUrl": "/images/dragon.png",
+      "weightGrams": 110,
+      "printTimeMinutes": 360,
+      "fileName": "flexi_dragon.stl",
+      "localPath": "uploads/flexi_dragon.stl",
+      "category": "Jucării & Articulate"
+    },
+    {
+      "id": "model-3",
+      "title": "Minimalist Phone & Tablet Stand",
+      "description": "Suport elegant și minimalist pentru telefon sau tabletă. Design stabil, cu unghi perfect de vizualizare și spațiu pentru cablul de încărcare.",
+      "printablesUrl": "https://www.printables.com/model/98765-minimalist-phone-stand",
+      "imageUrl": "/images/phonestand.png",
+      "weightGrams": 38,
+      "printTimeMinutes": 110,
+      "fileName": "phone_stand.stl",
+      "localPath": "uploads/phone_stand.stl",
+      "category": "Accesorii Birou"
+    },
+    {
+      "id": "model-1779547853922",
+      "title": "Veyra – Flexible, articulated dragon",
+      "description": "Veyra – The Thorned Serpent of Legends Born from ancient flames and hardened by stone, Veyra is said to have slumbered beneath volcanic mountains for centuries. Its body bristles with jagged thorns, each scale sharper than steel, forming natural armor that no blade can pierce. Legends tell of its ey",
+      "printablesUrl": "https://www.printables.com/model/1418043-veyra-flexible-articulated-dragon/files",
+      "imageUrl": "https://media.printables.com/media/prints/cb8ded83-c542-4105-b351-b22cec94b79a/images/10700089_83f472a8-174d-4c63-abb0-77a913a4efa2_41c0ed26-ea94-467e-a3a1-38361846755b/20250918_114213.jpg",
+      "weightGrams": 15,
+      "printTimeMinutes": 60,
+      "fileName": "",
+      "localPath": "",
+      "category": "Jucării"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-1779547703598",
+      "buyerName": "1",
+      "printablesUrl": "https://www.printables.com/model/12345-flexi-articulated-dragon",
+      "title": "Articulated Flexi Dragon",
+      "imageUrl": "/images/dragon.png",
+      "description": "Dragon articulat complet flexibil printat dintr-o singură bucată (print-in-place). Nu necesită asamblare și are o mișcare extrem de fluidă.",
+      "weightGrams": 110,
+      "printTimeMinutes": 360,
+      "materialId": "mat-1",
+      "price": 58.92,
+      "status": "accepted",
+      "fileName": "flexi_dragon.stl",
+      "localPath": "uploads/flexi_dragon.stl",
+      "createdAt": "2026-05-23T14:48:23.598Z"
+    },
+    {
+      "id": "order-1779548284151",
+      "buyerName": "Adrian",
+      "printablesUrl": "https://www.printables.com/model/1434993-skeleton-hand-bookstop",
+      "title": "Skeleton Hand Bookstop",
+      "imageUrl": "https://media.printables.com/media/prints/8414ecce-2018-42d4-a7aa-efb0040af128/images/10821618_3b67d152-bdf8-46f7-bdfa-86777ce503bc_afdc078a-ba95-47b0-bae8-9e39cb557405/a7401835.jpg",
+      "description": "Skeleton Hand Bookstop Halloween is just around the corner! Get your home ready for the spooky season with the Skeleton Hand Bookstop . This striking and functional bookend securely holds your favorite books while acting as a captivating piece of macabre art, perfect for your Halloween décor. Design",
+      "weightGrams": 20,
+      "printTimeMinutes": 90,
+      "materialId": "mat-1",
+      "price": 17.88,
+      "status": "accepted",
+      "fileName": "left hand base.stl",
+      "localPath": "uploads/left_hand_base-1779548266498-50454736.stl",
+      "createdAt": "2026-05-23T14:58:04.151Z"
+    },
+    {
+      "id": "order-1779548629462",
+      "buyerName": "Mihai",
+      "printablesUrl": "https://www.printables.com/model/1434993-skeleton-hand-bookstop",
+      "title": "Skeleton Hand Bookstop",
+      "imageUrl": "https://media.printables.com/media/prints/8414ecce-2018-42d4-a7aa-efb0040af128/images/10821618_3b67d152-bdf8-46f7-bdfa-86777ce503bc_afdc078a-ba95-47b0-bae8-9e39cb557405/a7401835.jpg",
+      "description": "Skeleton Hand Bookstop Halloween is just around the corner! Get your home ready for the spooky season with the Skeleton Hand Bookstop . This striking and functional bookend securely holds your favorite books while acting as a captivating piece of macabre art, perfect for your Halloween décor. Design",
+      "weightGrams": 50,
+      "printTimeMinutes": 90,
+      "materialId": "mat-1",
+      "price": 23.28,
+      "status": "accepted",
+      "fileName": "left hand base.stl",
+      "localPath": "uploads/left_hand_base-1779548577060-617301716.stl",
+      "createdAt": "2026-05-23T15:03:49.462Z"
+    }
+  ]
+}
