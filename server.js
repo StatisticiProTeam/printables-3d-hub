@@ -818,7 +818,7 @@ app.delete('/api/orders/:id', (req, res) => {
 app.use(express.static(path.join(process.cwd(), 'dist')));
 
 // Fallback all non-API and non-upload routes to index.html
-app.get('*', (req, res, next) => {
+app.get('/{*all}', (req, res, next) => {
   if (req.path.startsWith('/api') || req.path.startsWith('/uploads')) {
     return next();
   }
